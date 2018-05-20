@@ -34,9 +34,10 @@ body {
   align-items: center;
 }
 
-.c-block {
-  position: relative;
-  padding: 2em;
+@media screen and (min-width: 38em) {
+  .c-block {
+    padding: 2em;
+  }
 }
 
 p {
